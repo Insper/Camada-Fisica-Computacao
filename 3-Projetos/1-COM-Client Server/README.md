@@ -1,54 +1,73 @@
 ---
-title: Camada Física - Client / Server
+title: Camada Física -  Client - Server : Requisitos
 subtitlepage-note: Client Server
 author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: 2017
 ---
 
-![Camada Atual](imgs/etapaAtualPilhaAplicacao.pdf){ width=40% }
+# Projeto 
 
-# Introdução
+Essa etapa do projeto consiste na modificação da comunicação em modo loopback
+para uma comunicação ponto a ponto entre dois computadores via a interface UART.
+Como ilustrado no diagrama a seguir :
 
-Protocolos de comunicação são criados para definir um meio de comunicação entre dois ou mais pontos, esses protocolos funcionam como "linguagens" que devem ser seguidas para que ambos os agentes da comunicação troquem dados de forma confiável e eficiente. Para isso, deve-se inserir uma série de artifícios para garantirmos que a mensagem será corretamente enviada e recebida.
+![Comunicação entre dois computadores](doc/clientServer.png){ width=100% }
 
-Os meios de comunicação pelo quais as mensagens trafegam não são muitos confiáveis e inserem erros na transmissão, esses erros devem ser minimizados (zerados) a fim de garantirmos uma transmissão confiável entre dois pontos.
+Para tanto será necessário modificar o exemplo original (localizado no repositório em : /3-Projetos/1-Comunicacao-Pnt-Pnt/) para passar a funcionar de uma comunicação em modo loopback para uma comunicação ponto a ponto entre dois computadores.
 
-Ninguém gosta de trabalhar com a ideia de poder ter uma foto recebida por e-mail corrompida, quando enviamos um e-mail, pressupomos que o receptor receberá a mensagem tal como foi enviada. Para isso a mensagem de e-mail passa por uma série de "tratamentos" a fim de garantir sua integridade. Além disso os diferentes serviços de e-mails (tais como gmail, outlook, ...) devem conseguir enviar e
-receber e-mail entre si, para isso, devem concordar com o formato que essa mensagem será formatada.
+Ler a respeito do modo loopback em :
 
-```
-Questão :
-    - Qual é o protocolo utilizado para troca de email entre
-    os servidores?
-```
+- dwdadawda
 
-```
-Questão :
-    - Quais são os protocolos de envio e recebimento de email
-    entre client - servidor de emails ?
-```
 
-## Client-Server
+## Papeis
 
-Com o objetivo de estabelecer uma comunicação entre dois pontos distintos, devemos estabelecer papeis (rolls) para cada nó da comunicação. Um modelo muito utilizado é o do *client*/*server* (que será desconstruído depois na disciplina de *cloud, 6 semestre*). Nesse modelo, concentra-se funções específicas para ambos os nós: o server possui um papel passivo e centralizador onde aguarda a comunicação de um/ ou múltiplos clients (ativos) [[ref_1]](https://en.wikipedia.org/wiki/Client%E2%80%93server_model).
+- Client : O papel do client nesse caso será o do envio de uma imagem para o server.
+- Server : O papel do server será o da recepção de uma imagem enviada pelo
+  client.
+  
+## Requisitos
 
-![Modelo de client-Server para a internet](imgs/Client-server-model.pdf){ width=50% }
+1. Criar os papeis de Client e Servidor
+1. Comunicar dois computadores distintos enviando um arquivo entre eles
+1. Documentar o protocolo.
 
-Podemos citar como utilização dessa topologia os serviços de email, impressão, e toda internet (www). Como alternativa ao modelo client-server, existem os serviços chamados : *peer-to-peer*, onde todos os recursos estão decentralizados em uma rede (exe: torrent).
+## Validação
 
-```
-Questão :
-    - Faça um breve descritivo do que acontece quando você faz uma busca
-    de rota no Waze, pontue os papeis do client e do server.
-```
+- Conectar dois computadores via arduino e transmitir um arquivo de tamanho definido entre os dois nós.
 
-```
-Questão :
-    - Faça o diagrama de uma rede peer-to-peer
-```
+# Avaliação :
 
-```
-Questão :
-    - Existem modelos de rede híbridos ? De exemplos de funcionamento.
-```
+## Itens necessários para o aceite
+- Aplicação
+    - Possui Client e Server como aplicações distintas
+    - Client
+        - Lê um arquivo do computador e o transmite via enlace.
+        - Cálculo do tempo de transmissão
+    - Server 
+        - Lê um arquivo via enlace e salva no computador.
+        - Cálculo do tempo de recepção 
+- Documentação
+    - Diagrama de funcionamento
+    - Diagrama de camadas
+
+## Itens extras
+
+- Aplicação
+    - Interface gráfica para seleção de imagem a ser lida e salva
+
+## Rubricas
+
+| Nota máxima | Descritivo                                           |
+|-------------|------------------------------------------------------|
+| A           | - Entregue no prazo                                  |
+|             | - Implementado extras                                |
+| B           | - Entregue no prazo                                  |
+|             | - Implementado itens necessários                     |
+| C           | - Entregue fora do prazo                             |
+|             | - Implementando itens ncessários                     |
+| D           | - Nem todos os itens necessários foram implementados |
+| I           | - Não entregue                                       |
+
+
 

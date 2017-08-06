@@ -4,6 +4,8 @@ author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: 2017
 ---
 
+![Camada Atual : Enlace ](doc/camadaAtualEnlace.png){ width=100% }
+
 # Datagrama
 
 O objetivo principal de uma rede de comunicações é o de estabelecer um canal de transferência de dados (seja ele analógico ou digital), uma comunicação pode operar como sendo um streaming de dados brutos, sem nenhuma manipulação. 
