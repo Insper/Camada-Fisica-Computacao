@@ -1,11 +1,10 @@
 ---
-title: Camada Física - Client / Server
-subtitlepage-note: Client Server
+title: Camada Física - Client / subtitlepage-note: Client Server
 author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: 2017
 ---
 
-![Camada Atual](imgs/etapaAtualPilhaAplicacao.pdf){ width=40% }
+![Camada Atual](imgs/etapaAtualPilhaAplicacao.png){ width=40% }
 
 # Introdução
 
