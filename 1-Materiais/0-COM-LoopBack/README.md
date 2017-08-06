@@ -31,7 +31,7 @@ Questão :
 
 Com o objetivo de estabelecer uma comunicação entre dois pontos distintos, devemos estabelecer papeis (rolls) para cada nó da comunicação. Um modelo muito utilizado é o do *client*/*server* (que será desconstruído depois na disciplina de *cloud, 6 semestre*). Nesse modelo, concentra-se funções específicas para ambos os nós: o server possui um papel passivo e centralizador onde aguarda a comunicação de um/ ou múltiplos clients (ativos) [[ref_1]](https://en.wikipedia.org/wiki/Client%E2%80%93server_model).
 
-![Modelo de client-Server para a internet](imgs/Client-server-model.pdf){ width=50% }
+![Modelo de client-Server para a internet](doc/Client-server-model.png){ width=50% }
 
 Podemos citar como utilização dessa topologia os serviços de email, impressão, e toda internet (www). Como alternativa ao modelo client-server, existem os serviços chamados : *peer-to-peer*, onde todos os recursos estão decentralizados em uma rede (exe: torrent).
 
