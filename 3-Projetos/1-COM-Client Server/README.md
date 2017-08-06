@@ -1,9 +1,11 @@
 ---
 title: Camada Física -  Client - Server : Requisitos
-subtitlepage-note: Client Server
 author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: 2017
 ---
+
+![Etapa Atual](doc/etapaAtualPilhaAplicacao.png){ width=100% }
+
 
 # Projeto 
 
