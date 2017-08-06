@@ -4,7 +4,7 @@ author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: 2017
 ---
 
-![Camada Atual](imgs/etapaAtualPilhaAplicacao.png){ width=40% }
+![Camada Atual](doc/etapaAtualPilhaAplicacao.png){ width=40% }
 
 # Introdução
 
