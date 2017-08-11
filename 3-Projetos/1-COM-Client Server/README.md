@@ -6,8 +6,7 @@ date: 2017
 
 ![Etapa Atual](doc/etapaAtualPilhaAplicacao.png){ width=100% }
 
-
-# Projeto 
+# Projeto 1 : Client-Server
 
 Essa etapa do projeto consiste na modificação da comunicação em modo loopback
 para uma comunicação ponto a ponto entre dois computadores via a interface UART.
@@ -19,7 +18,7 @@ Para tanto será necessário modificar o exemplo original (localizado no reposit
 
 Ler a respeito do modo loopback em :
 
-- Modo LoopBack
+- [Modo LoopBack](https://github.com/Insper/Camada-Fisica-Computacao/wiki/Hardware---Comunica%C3%A7%C3%A3o-modo-LoopBack)
 
 ## Papeis
 
@@ -36,6 +35,30 @@ Ler a respeito do modo loopback em :
 ## Validação
 
 - Conectar dois computadores via arduino e transmitir um arquivo de tamanho definido entre os dois nós.
+
+# Código base
+
+O código base disponível em :
+
+- [](dadwa)
+
+O código possui os seguintes arquivos : aplicacao.py; enlace.py; enlaceTx.py; enlaceRx.py; interfaceFisica.py. Sendo cada um responsável por :
+
+- aplicacao.py : Carrega uma imagem e a transmite via enlace. Após a transmissão recebe novamente a imagem e a salva em imgs/recebida.png
+
+- enlace.py : Interface de comunicação entre a aplicação e o enlace.
+
+- enlaceTx.py : parte do enlace responsável por transmitir n dados via a camada física (interfaceFisica.py)
+
+- enlaceRx.py : parte do enlace responsável por receber n dados via a camada física (interfaceFisica.py)
+
+- interfaceFisica.py : Código que lida com o envio dos dados para o Arduino e recebimento.
+
+A figura a seguir faz uma relação dos códigos com cada etapa da comunicação a ser desenvolvida :
+
+![Estrutura](doc/pilhaInsper-python.png)
+
+
 
 # Avaliação :
 

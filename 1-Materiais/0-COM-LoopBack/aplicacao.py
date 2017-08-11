@@ -12,7 +12,7 @@ import time
 
 def main():
     # Inicializa enlace
-    com = enlace("/dev/ttyACM0")           # Ubuntu
+    com = enlace("/dev/ttyACM0")            # Ubuntu
     #com = enlace("/dev/tty.usbmodem1411")  # Mac
     #com = enlace("COM3")                   # Windows
     com.enable()
