@@ -63,4 +63,13 @@ Para haver transmissão e recepção simultâneamente o código faz uso de threa
 
 ## Porta serial !
 
-A 
+O endereço da porta serial vaira de sistema operacional para sistema operacional. Para listar as comunicações seriais presentes no seu computador basta executar o seguinte comando python:
+
+```
+# python -m serial.tools.list_ports
+# /dev/ttyACM0        
+# 1 ports found
+```
+
+No exemplo anterior, detectou-se uma porta serial localiozado em /dev/ttyACM0
+
