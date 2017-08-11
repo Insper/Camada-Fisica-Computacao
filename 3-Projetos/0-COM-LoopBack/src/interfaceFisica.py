@@ -90,6 +90,9 @@ class fisica(object):
         rxBufferValid = rxBufferConcat[0:nValid]
         self.rxRemain = rxBufferConcat[nValid:]
         try :
+            """ As vezes acontece erros na decodificacao
+            fora do ambiente linux, isso tenta corrigir
+            em parte esses erros. Melhorar futuramente."""
             rxBufferDecoded = self.decode(rxBufferValid)
             nRx = len(rxBuffer)
             return(rxBufferDecoded, nRx)
