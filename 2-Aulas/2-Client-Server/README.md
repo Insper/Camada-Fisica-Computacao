@@ -9,6 +9,15 @@ date: 2017
 - Objetivos trabalhados
 - Demonstrar conhecer os elementos essenciais de telecomunicações
 
+# Material de Aula
+- [slides]()
+- [lista]()
+- Leitura recomendada :
+    - [Wiki Client Server model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
+    - Capítulo 1 : [TCP/IP Tutorial and Technical Overview](https://books.google.com.br/books?id=TgwWAgAAQBAJ&printsec=frontcover&hl=pt-BR&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)
+
+# Hands On
+
 ## Grupos
 1. Criar um repositório no gitHub (para a dupla)
     - adicionar o colega ao repositório
