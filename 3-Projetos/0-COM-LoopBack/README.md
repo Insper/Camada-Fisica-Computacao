@@ -4,6 +4,8 @@ author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: 2017
 ---
 
+![Camadas](doc/pilhaInsper.png){ width=50% }
+
 # Modo de comunicação - LoopBack
 
 ![Diagrama](doc/loopback-diagrama2.png)
@@ -35,8 +37,6 @@ No nosso projeto, utilizamos o Arduino como placa de rede, e o protocolo UART co
 
 # Código base
 
-*[Camada-Fisica-Da-Computacao/3-Projetos/1-COM-Client-Server/src/](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/1-COM-Client%20Server)*
-
 O código possui os seguintes arquivos : aplicacao.py; enlace.py; enlaceTx.py; enlaceRx.py; interfaceFisica.py. Sendo cada um responsável por :
 
 - aplicacao.py : Carrega uma imagem e a transmite via enlace. Após a transmissão recebe novamente a imagem e a salva em imgs/recebida.png
@@ -62,3 +62,5 @@ Com a seguinte árvore de dependência :
 Para haver transmissão e recepção simultâneamente o código faz uso de threads, uma para enlaceTx e outra para o enlaceRX possibilitando que a interface enlace transmita e receba dados de forma contínua.
 
 ## Porta serial !
+
+A 
