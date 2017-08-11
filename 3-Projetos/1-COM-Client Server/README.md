@@ -39,10 +39,9 @@ Ler a respeito do modo loopback em :
 ## Código base
  
 - Um código base que faz a comunicação em modo loopback é fornecido em :
-    - [3-Projetos/0-COM-LoopBack/](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/0-COM-loopback)
+    - [3-Projetos/0-COM-LoopBack/](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/0-COM-LoopBack)
 
 
- 
 # Avaliação :
 
 ## Itens necessários para o aceite

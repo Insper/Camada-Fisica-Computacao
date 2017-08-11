@@ -4,37 +4,34 @@ author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: 2017
 ---
 
-![Etapa Atual](doc/etapaAtualPilhaAplicacao.png){ width=30% }
+# Modo de comunicação - LoopBack
 
-# Projeto 1 : Client-Server
+![Diagrama](doc/loopback-diagrama2.png)
 
-Essa etapa do projeto consiste na modificação da comunicação em modo loopback
-para uma comunicação ponto a ponto entre dois computadores via a interface UART.
-Como ilustrado no diagrama a seguir :
+Conexões loopback são muito utilizadas para a validação e teste de comunicação, nessa topologia os dados de saída (TX) são conectados a sua própria entrada (RX) permitindo que os dados enviados possam ser lidos pelo memso nó. Existem [loopbacks](https://en.wikipedia.org/wiki/Localhost) em diversos níveis do protocolo, por exemplo: quando acessamos o endereço ttp://localhost (ou 172.0.0.1) no navegador estamos executando um loopback na camada IP, como ilustrado a baixo : 
 
-![Comunicação entre dois computadores](doc/clientServer.png){ width=100% }
+![Modo LoopBack](doc/loopback-layer.png)
 
-Para tanto será necessário modificar o exemplo original (localizado no repositório em : /1-Materiais/0-COM-LoopBack/) para passar a funcionar de uma comunicação em modo loopback para uma comunicação ponto a ponto entre dois computadores.
+Loobacks também podem ser executados na camada mais baixa da comunicação, para isso, deve-se conectar fisicamente a saída da placa de rede a sua entrada. No caso de um loopback físico de uma conexão Ethernet (via cabo de rede), deve-se modificar um cabo para que a saída (TX) seja ligado a sua entrada (RX), como ilustrado no diagrama a seguir : 
 
-Ler a respeito do modo loopback em :
+![Modo LoopBack](doc/loopback-ethernet.png)
 
-- [Modo LoopBack](https://github.com/Insper/Camada-Fisica-Computacao/wiki/Hardware---Comunica%C3%A7%C3%A3o-modo-LoopBack)
+## Loopback serial
 
-## Papeis
+No nosso projeto, utilizamos o Arduino como placa de rede, e o protocolo UART como forma de comunicação entre dois nós. O loopback nesse caso se da conectando a saída da porta UART (TX0) a entrada da porta UART (RX0), assim todo dado que for transmitido pelo computador, será encaminhado para a porta TX0 e recebida pela porta RX0 e então devolvido ao computador pelo USB.
 
-- Client : O papel do client nesse caso será o do envio de uma imagem para o server.
-- Server : O papel do server será o da recepção de uma imagem enviada pelo
-  client.
-  
-## Requisitos
+![LoopBack UART](doc/loopback-diagrama2.png)
 
-1. Criar os papeis de Client e Servidor
-1. Comunicar dois computadores distintos enviando um arquivo entre eles
-1. Documentar o protocolo.
+![LoopBack UART fluxo de dados](doc/loopback-diagrama3.png)
 
-## Validação
+## Conexão :
 
-- Conectar dois computadores via arduino e transmitir um arquivo de tamanho definido entre os dois nós.
+- Conectar o TX0 (pino 1) no RX0 (pino 0)
+- USB perto da fonte
+
+![Modo LoopBack](doc/hardware-loopback.jpg)
+
+![Modo LoopBack](doc/loopback-diagrama1.png)
 
 # Código base
 
@@ -63,39 +60,5 @@ Com a seguinte árvore de dependência :
 ## Threads 
 
 Para haver transmissão e recepção simultâneamente o código faz uso de threads, uma para enlaceTx e outra para o enlaceRX possibilitando que a interface enlace transmita e receba dados de forma contínua.
- 
-# Avaliação :
 
-## Itens necessários para o aceite
-- Aplicação
-    - Possui Client e Server como aplicações distintas
-    - Client
-        - Lê um arquivo do computador e o transmite via enlace.
-        - Cálculo do tempo de transmissão
-    - Server 
-        - Lê um arquivo via enlace e salva no computador.
-        - Cálculo do tempo de recepção 
-- Documentação
-    - Diagrama de funcionamento
-    - Diagrama de camadas
-
-## Itens extras
-
-- Aplicação
-    - Interface gráfica para seleção de imagem a ser lida e salva
-
-## Rubricas
-
-| Nota máxima | Descritivo                                           |
-|-------------|------------------------------------------------------|
-| A           | - Entregue no prazo                                  |
-|             | - Implementado extras                                |
-| B           | - Entregue no prazo                                  |
-|             | - Implementado itens necessários                     |
-| C           | - Entregue fora do prazo                             |
-|             | - Implementando itens ncessários                     |
-| D           | - Nem todos os itens necessários foram implementados |
-| I           | - Não entregue                                       |
-
-
-
+## Porta serial !
