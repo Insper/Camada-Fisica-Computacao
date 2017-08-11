@@ -7,9 +7,11 @@ date: 2017
 
 O exemplo localizado nessa pasta cria as seguintes camadas de abstração da comunicação :
 
-![Camadas](doc/pilhaInsper.png){ width=50% }
+![Camadas](doc/pilhaInsper-explicacao.png){ width=50% }
 
-Nesse protocolo, temos três camadas : Aplicação, enlace e física. 
+Nesse protocolo, temos três camadas : Aplicação, enlace e física. As camadas são implementadas nos seguintes meios :
+
+![Camadas](doc/pilhaInsper2.png){ width=50% }
 
 
 # Código base
