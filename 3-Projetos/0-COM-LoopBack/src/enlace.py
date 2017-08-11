@@ -25,7 +25,7 @@ class enlace(object):
     """
 
     def __init__(self, name):
-        """ Initializes the foxCom class
+        """ Initializes the enlace class
         """
         self.fisica      = fisica(name)
         self.rx          = RX(self.fisica)
@@ -36,12 +36,11 @@ class enlace(object):
         """ Enable reception and transmission
         """
         self.fisica.open()
-        self.fisica.flush()
         self.rx.threadStart()
         self.tx.threadStart()
 
     def disable(self):
-        """ Disable reception and transmission 
+        """ Disable reception and transmission
         """
         self.rx.threadKill()
         self.tx.threadKill()
