@@ -1,10 +1,10 @@
 ---
-title: Camada Física -  Client - Server : Requisitos
+title: Camada Física -  Projeto 1 - COM-Client-Server 
 author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: 2017
 ---
 
-![Etapa Atual](doc/etapaAtualPilhaAplicacao.png){ width=100% }
+![Etapa Atual](doc/etapaAtualPilhaAplicacao.png){ width=30% }
 
 # Projeto 1 : Client-Server
 
@@ -14,7 +14,7 @@ Como ilustrado no diagrama a seguir :
 
 ![Comunicação entre dois computadores](doc/clientServer.png){ width=100% }
 
-Para tanto será necessário modificar o exemplo original (localizado no repositório em : /3-Projetos/1-Comunicacao-Pnt-Pnt/) para passar a funcionar de uma comunicação em modo loopback para uma comunicação ponto a ponto entre dois computadores.
+Para tanto será necessário modificar o exemplo original (localizado no repositório em : /1-Materiais/0-COM-LoopBack/) para passar a funcionar de uma comunicação em modo loopback para uma comunicação ponto a ponto entre dois computadores.
 
 Ler a respeito do modo loopback em :
 
@@ -38,9 +38,7 @@ Ler a respeito do modo loopback em :
 
 # Código base
 
-O código base disponível em :
-
-- [](dadwa)
+*[Camada-Fisica-Da-Computacao/3-Projetos/1-COM-Client-Server/src/](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/1-COM-Client%20Server)*
 
 O código possui os seguintes arquivos : aplicacao.py; enlace.py; enlaceTx.py; enlaceRx.py; interfaceFisica.py. Sendo cada um responsável por :
 
@@ -58,8 +56,14 @@ A figura a seguir faz uma relação dos códigos com cada etapa da comunicação
 
 ![Estrutura](doc/pilhaInsper-python.png)
 
+Com a seguinte árvore de dependência :
 
+![Árvore](doc/python-estrutura.png){ width=35% }
 
+## Threads 
+
+Para haver transmissão e recepção simultâneamente o código faz uso de threads, uma para enlaceTx e outra para o enlaceRX possibilitando que a interface enlace transmita e receba dados de forma contínua.
+ 
 # Avaliação :
 
 ## Itens necessários para o aceite

@@ -10,9 +10,6 @@
 # Importa pacote de tempo
 import time
 
-# Threads
-import threading
-
 # Construct Struct
 from construct import *
 
