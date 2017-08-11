@@ -4,6 +4,8 @@ author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: 2017
 ---
 
+*Entrega : Próxima aula 17/8*
+
 ![Etapa Atual](doc/etapaAtualPilhaAplicacao.png){ width=30% }
 
 # Projeto 1 : Client-Server

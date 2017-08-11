@@ -4,7 +4,6 @@ author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: 2017
 ---
 
-
 O exemplo localizado nessa pasta cria as seguintes camadas de abstração da comunicação :
 
 ![Camadas](doc/pilhaInsper-explicacao.png){ width=50% }
@@ -12,7 +11,6 @@ O exemplo localizado nessa pasta cria as seguintes camadas de abstração da com
 Nesse protocolo, temos três camadas : Aplicação, enlace e física. As camadas são implementadas nos seguintes meios :
 
 ![Camadas](doc/pilhaInsper2.png){ width=50% }
-
 
 # Código base
 
@@ -45,7 +43,7 @@ Para haver transmissão e recepção simultâneamente o código faz uso de threa
 O endereço da porta serial vaira de sistema operacional para sistema operacional. Para listar as comunicações seriais presentes no seu computador basta executar o seguinte comando python:
 
 ```
-# python -m serial.tools.list_ports
+# python3 -m serial.tools.list_ports
 # /dev/ttyACM0        
 # 1 ports found
 ```
@@ -103,6 +101,9 @@ No nosso projeto, utilizamos o Arduino como placa de rede, e o protocolo UART co
 - Conectar o TX0 (pino 1) no RX0 (pino 0)
 - USB perto da fonte
 
+![Modo LoopBack](doc/loopback-diagrama1.png)
+
+### No mundo real ... 
+
 ![Modo LoopBack](doc/hardware-loopback.jpg)
 
-![Modo LoopBack](doc/loopback-diagrama1.png)
