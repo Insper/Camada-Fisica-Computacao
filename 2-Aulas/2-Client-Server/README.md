@@ -31,5 +31,6 @@ date: 2017
     - https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/0-COM-LoopBack
 
 ## Projeto 1 - Client-Server
-1. Começar a trabalhar no primeiro entregável : 
+1. Começar a trabalhar no primeiro entregável 
     - https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/1-COM-Client%20Server
+1. Faça as implementações a partir do exemplo do loopback
