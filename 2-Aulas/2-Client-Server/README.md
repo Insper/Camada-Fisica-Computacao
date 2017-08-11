@@ -10,8 +10,8 @@ date: 2017
 - Demonstrar conhecer os elementos essenciais de telecomunicações
 
 # Material de Aula
-- [slides]()
-- [lista]()
+- Slides : [slides](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/2-Client-Server/2-Slides-Client-Server.pdf)
+- Lista : [lista](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/2-Client-Server/2-Lista-Client-Server.pdf)
 - Leitura recomendada :
     - [Wiki Client Server model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
     - Capítulo 1 : [TCP/IP Tutorial and Technical Overview](https://books.google.com.br/books?id=TgwWAgAAQBAJ&printsec=frontcover&hl=pt-BR&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)
