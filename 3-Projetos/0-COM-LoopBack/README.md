@@ -36,12 +36,33 @@ Ler a respeito do modo loopback em :
 
 - Conectar dois computadores via arduino e transmitir um arquivo de tamanho definido entre os dois nós.
 
-## Código base
- 
-- Um código base que faz a comunicação em modo loopback é fornecido em :
-    - [3-Projetos/0-COM-LoopBack/](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/0-COM-loopback)
+# Código base
 
+*[Camada-Fisica-Da-Computacao/3-Projetos/1-COM-Client-Server/src/](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/1-COM-Client%20Server)*
 
+O código possui os seguintes arquivos : aplicacao.py; enlace.py; enlaceTx.py; enlaceRx.py; interfaceFisica.py. Sendo cada um responsável por :
+
+- aplicacao.py : Carrega uma imagem e a transmite via enlace. Após a transmissão recebe novamente a imagem e a salva em imgs/recebida.png
+
+- enlace.py : Interface de comunicação entre a aplicação e o enlace.
+
+- enlaceTx.py : parte do enlace responsável por transmitir n dados via a camada física (interfaceFisica.py)
+
+- enlaceRx.py : parte do enlace responsável por receber n dados via a camada física (interfaceFisica.py)
+
+- interfaceFisica.py : Código que lida com o envio dos dados para o Arduino e recebimento.
+
+A figura a seguir faz uma relação dos códigos com cada etapa da comunicação a ser desenvolvida :
+
+![Estrutura](doc/pilhaInsper-python.png)
+
+Com a seguinte árvore de dependência :
+
+![Árvore](doc/python-estrutura.png){ width=35% }
+
+## Threads 
+
+Para haver transmissão e recepção simultâneamente o código faz uso de threads, uma para enlaceTx e outra para o enlaceRX possibilitando que a interface enlace transmita e receba dados de forma contínua.
  
 # Avaliação :
 
