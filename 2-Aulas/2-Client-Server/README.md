@@ -6,7 +6,7 @@ date: 2017
 
 ![Camada Atual](doc/etapaAtualPilhaAplicacao.png){ width=40% }
 
-Introduz o primeiro projeto a ser desenvolvido, nessa aula forma-se as duplas que irão trabalhar ao longo do projeto. É introduzido o modo loopback e as duplas devem modificar a aplicação para o envio entre dois computadores.
+Introduz o primeiro projeto a ser desenvolvido, nessa aula forma-se as duplas que irão trabalhar ao longo do projeto. A partir do modo loopback e as duplas devem modificar a aplicação para o envio entre dois computadores.
 
 # Material de Aula
 - Slides : [slides](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/2-Client-Server/2-Slides-Client-Server.pdf)
