@@ -1,10 +1,12 @@
 ---
-title: Camada Física - Client / subtitlepage-note: Client Server
+title: Camada Física - Client / Server 
 author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: 2017
 ---
 
 ![Camada Atual](doc/etapaAtualPilhaAplicacao.png){ width=40% }
+
+Introduz o primeiro projeto a ser desenvolvido, nessa aula forma-se as duplas que irão trabalhar ao longo do projeto. É introduzido o modo loopback e as duplas devem modificar a aplicação para o envio entre dois computadores.
 
 # Material de Aula
 - Slides : [slides](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/2-Client-Server/2-Slides-Client-Server.pdf)
