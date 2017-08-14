@@ -4,8 +4,6 @@ author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: 2017
 ---
 
-![Camada Atual](doc/etapaAtualPilhaAplicacao.png){ width=40% }
-
 Aula introdutória a Camada Física da Computação onde os alunos são questionados sobre sobre o funcionamento da internet e dos sistemas de comunicação digital. Apresenta-se os objetivos da disciplina e como será conduzida.  
 
 # Material de Aula
