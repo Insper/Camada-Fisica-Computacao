@@ -1,6 +1,5 @@
-
 ---
-title: Camada Física - Client / subtitlepage-note: Client Server
+title: Camada Física - Introdução
 author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: 2017
 ---
