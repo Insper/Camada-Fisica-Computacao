@@ -6,9 +6,6 @@ date: 2017
 
 ![Camada Atual](doc/etapaAtualPilhaAplicacao.png){ width=40% }
 
-- Objetivos trabalhados
-- Demonstrar conhecer os elementos essenciais de telecomunicações
-
 # Material de Aula
 - Slides : [slides](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/2-Client-Server/2-Slides-Client-Server.pdf)
 - Lista : [lista](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/2-Client-Server/2-Lista-Client-Server.pdf)
