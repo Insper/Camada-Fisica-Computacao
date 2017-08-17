@@ -10,13 +10,20 @@ date: 2017
 Trabalhar na evolução do protocolo de comunicação, agora os dados serão enviados encapsulados em um pacote (datagrama), possibilitando o envio de de dados de tamanho não definidos previamente.
 
 # Material de Aula
-- Slides : [slides](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/3-Datagrama/3-Slides-Datagrama.pdf)
-- Lista : [lista](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/3-Datagrama/3-Lista-Datagrama.pdf)
+- Slides : [slides Aula 3](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/3-Datagrama/3-Slides-Datagrama.pdf)
+- Lista : [lista Aula 3](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/3-Datagrama/3-Lista-Datagrama.pdf)
 - Leitura obrigatória :
     - [Wiki network Packet](https://en.wikipedia.org/wiki/Network_packet)
     - [Artigo]()
     
 ## Projeto 2 - Datagrama
+**Entrega começo da aula 24/8**
 
 1. Implementar o empacotamento dos dados para transmissão entre os dois nós, conforme descriçao do projeto 2 :
     - https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/2-COM-Datagrama
+
+## Artigo A - Idealização 
+**Entrega começo da aula 24/8**
+
+1. Entregar idealização artigo 
+    - https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/A-ARTIGO-Ideia
