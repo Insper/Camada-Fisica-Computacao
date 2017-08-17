@@ -21,6 +21,18 @@ Para cada ideia proposta, deve-se classificar-lá em um dos tópicos listados na
 
 - [Call-For-Papers](https://github.com/Insper/Camada-Fisica-Computacao/wiki/Artigo-Call-for-papers)
 
+## Exemplos 
+
+Como exemplo de possíveis ideias o documento a seguir descreve algumas ideias que podem servir de inspiração para o artigo :
+
+- [Exemplos de ideia](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/A-ARTIGO-Ideia/A-Idealizacao-Exemplo-Ideas.pdf)
+
+## Exemplo de entregável 
+
+O documento (A-Idealização-Exemplo-Entregavel) a seguir possui um exemplo do que dever entregado nessa primeira etapa :
+
+- [Exemplo de entregável](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/A-ARTIGO-Ideia/A-Idealizacao-Exemplo-Entregavel.pdf)
+
 # Avaliação :
 
 ## Itens necessários para o aceite :
