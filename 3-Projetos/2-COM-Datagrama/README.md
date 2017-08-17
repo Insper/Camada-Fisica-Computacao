@@ -14,7 +14,7 @@ Essa etapa do projeto consiste na criação de um protocolo de comunicação ent
 
 Para isso, será necessário agora modificarmos a camada de enlace, ela será responsável pelo encapsulamento e desencapsulamento dos dados. Para as aplicações essa manipulação deve ser transparente (ela não deve participar). Para um melhor entendimento ler o estudo dirigido da aula 3 :
 
-- [Lista aula 3]
+- [Lista aula 3](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/3-Datagrama/3-Lista-Datagrama.pdf)
 
 ## Dicas
 
