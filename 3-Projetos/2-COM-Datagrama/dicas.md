@@ -26,7 +26,7 @@ O server utilizava uma chamada a chamada de função *getData(size)* porém agor
 
 Modifique o método thread(self) do enlaceTx para imprimir na tela os dados que estão sendo enviados :
 
-```
+```python
     def thread(self):
         """ tx thread, to send data in parallel with the code
         """
@@ -41,7 +41,7 @@ Modifique o método thread(self) do enlaceTx para imprimir na tela os dados que 
 
 Modifique o método thread(self) do enalceRx para imprimir na tela os dados que estão sendo recebidos :
 
-```
+```python
     def thread(self):
         """ RX thread, to send data in parallel with the code
         """
