@@ -1,62 +1,53 @@
 ---
-title: Camada Física -  Client - Server : Requisitos
+title: Camada Física -  Projeto 2 - COM-Datagrama 
 author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: 2017
 ---
 
-![Etapa Atual](doc/etapaAtualPilhaAplicacao.png){ width=100% }
+*Entrega : Até o começo da aula do dia 24/8*
 
+![Etapa Atual](doc/etapaAtualPilhaEnlace.png){ width=30% }
 
-# Projeto 
+# Projeto 2 : Datagrama
 
-Essa etapa do projeto consiste na modificação da comunicação em modo loopback
-para uma comunicação ponto a ponto entre dois computadores via a interface UART.
-Como ilustrado no diagrama a seguir :
+Essa etapa do projeto consiste na criação de um protocolo de comunicação entre o client e o server, para isso, deveremos agora encapsular os dados em um pacote (ou datagrama) que carregará os dados a serem transmitidos. Com esse datagrama será possível o envio de imagens sem o conhecimento prévio do tamanho entre os nós.
 
-![Comunicação entre dois computadores](doc/clientServer.png){ width=100% }
+Para isso, será necessário agora modificarmos a camada de enlace, ela será responsável pelo encapsulamento e desencapsulamento dos dados. Para as aplicações essa manipulação deve ser transparente (ela não deve participar). Para um melhor entendimento ler o estudo dirigido da aula 3 :
 
-Para tanto será necessário modificar o exemplo original (localizado no repositório em : /3-Projetos/1-Comunicacao-Pnt-Pnt/) para passar a funcionar de uma comunicação em modo loopback para uma comunicação ponto a ponto entre dois computadores.
+- [Lista aula 3]
 
-Ler a respeito do modo loopback em :
+## Dicas
 
-- dwdadawda
-
-
-## Papeis
-
-- Client : O papel do client nesse caso será o do envio de uma imagem para o server.
-- Server : O papel do server será o da recepção de uma imagem enviada pelo
-  client.
+Algumas dicas de implementação podem ser lidas em : 
+ 
+- [Dicas]()
   
-## Requisitos
+# Requisitos
 
-1. Criar os papeis de Client e Servidor
-1. Comunicar dois computadores distintos enviando um arquivo entre eles
-1. Documentar o protocolo.
+Requisitos de projeto :
 
-## Validação
-
-- Conectar dois computadores via arduino e transmitir um arquivo de tamanho definido entre os dois nós.
-
-# Avaliação :
-
-## Itens necessários para o aceite
-- Aplicação
-    - Possui Client e Server como aplicações distintas
-    - Client
-        - Lê um arquivo do computador e o transmite via enlace.
-        - Cálculo do tempo de transmissão
-    - Server 
-        - Lê um arquivo via enlace e salva no computador.
-        - Cálculo do tempo de recepção 
-- Documentação
-    - Diagrama de funcionamento
-    - Diagrama de camadas
+1. O pacote deve possuir
+    - HEAD
+    - EOP
+1. O HEAD deve possuir o tamanho total da carga útil
+1. As aplicações client e server devem compartilhar a mesma implementação do enlace/ fisica.
+1. Documentar o protocolo
+    - HEAD e EOP utilizados
+         - "desenhar pacote"
+         - Quantidade de bytes para cada parte do HEAD e EOP
+    - Cálculo do Overhead 
+    - Cálculo do tempo teórico de transmissão de uma imagem qualquer
+    - Cálculo do Troughput
+1. Encapsular o dado (imagem) a ser transmitida em um pacote
 
 ## Itens extras
 
-- Aplicação
-    - Interface gráfica para seleção de imagem a ser lida e salva
+1. O server deve fazer a verificação da quantidade de dados que chegou com o enviado pelo HEAD, um log deve ser gerado.
+1. Fragmentar o pacote em n pacotes menores.
+
+## Validação
+
+- Conectar os dois computadores e transmitir entre o Client e o Server uma imagem de tamanho desconhecida do Server. Essa imagem deve estar encapsulada em um protocolo.
 
 ## Rubricas
 
