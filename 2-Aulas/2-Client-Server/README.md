@@ -4,6 +4,7 @@ author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: 2017
 ---
 
+
 ![Camada Atual](doc/etapaAtualPilhaAplicacao.png){ width=40% }
 
 Introduz o primeiro projeto a ser desenvolvido, nessa aula forma-se as duplas que irão trabalhar ao longo do projeto. A partir do modo loopback e as duplas devem modificar a aplicação para o envio entre dois computadores.
