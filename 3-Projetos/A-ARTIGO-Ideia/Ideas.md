@@ -1,3 +1,9 @@
+---
+title: Camada Física - Artigo - [A] Exemplo de ideias 
+author: Rafael Corsi - rafael.corsi@insper.edu.br
+date: Agosto - 2017
+---
+
 Telecomunicações/ Eletrônica/ Energia
 
 - Automóveis
