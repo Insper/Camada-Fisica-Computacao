@@ -15,7 +15,7 @@ Trabalhar na evolução do protocolo de comunicação, agora os dados serão env
 - Leitura obrigatória :
     - [Wiki network Packet](https://en.wikipedia.org/wiki/Network_packet)
     - [Gibb, Glen, et al. "Design principles for packet parsers." Proceedings of the ninth ACM/IEEE symposium on Architectures for networking and communications systems. IEEE Press, 2013. NBR 6023 ](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/3-Datagrama/3-Artigo-2013-Gibb-Glen-et-al.pdf)
-        - *Leitura obrigatória seccões 1,2,3 e 4.*
+        - **Leitura obrigatória seccões 1,2,3 e 4.**
         - [Perguntas sobre o artigo]()
     
 ## Projeto 2 - Datagrama
