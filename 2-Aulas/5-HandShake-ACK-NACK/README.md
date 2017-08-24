@@ -6,8 +6,9 @@ date: Agosto - 2017
 
 ![Camada Atual](figs/etapaAtualPilhaEnlace.png){ width=40% }
 
+Aula que trata o handshake de comunicação e o reconhecimento de pacotes.
 
-# Material de Aula
+## Material de Aula
 - Slides : [slides Aula 3](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/5-HandShake-ACK-NACK/slides.pdf)
 
 ## Lista Aula 5
@@ -16,11 +17,11 @@ O conteúdo da lista a seguir será cobrado em avaliação :
 
 [lista Aula 5](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/5-HandShake-ACK-NACK/LISTA.pdf)
 
-## Leituras Aula 3
+## Leituras Aula 5
 
 O conteúdo das leituras listas a seguir serão cobradas em avaliações :
 
-## Projeto 3 - HandShake Ack/NACK
+# Projeto 3 - HandShake Ack/NACK
 
 **Entrega começo da aula 31/8**
 
