@@ -28,7 +28,7 @@ O conteúdo das leituras listas a seguir serão cobradas em avaliações :
 Ler o artigo a seguir :
 
 
-- [Kim, Youngsoo, et al. "Throughput enhancement of IEEE 802.11 WLAN via frame aggregation." Vehicular technology conference, 2004. VTC2004-Fall. 2004 IEEE 60th. Vol. 4. IEEE, 2004.](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/5-HandShake-ACK-NACK/5-Artigo-2002-Kin-el-al.pdf)
+- [Kim, Youngsoo, et al. "Throughput enhancement of IEEE 802.11 WLAN via frame aggregation." Vehicular technology conference, 2004. VTC2004-Fall. 2004 IEEE 60th. Vol. 4. IEEE, 2004.](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/5-HandShake-ACK-NACK/5-Artigo-2002-Kin-et-al.pdf)
 
 E responder a seguintes perguntas :
 
