@@ -1,7 +1,7 @@
 ---
-title: Camada Física -  Dicas Projeto 2 - COM-Datagrama 
+title: Camada Física -  Dicas Projeto 3 - COM-HandShake-ACK-NACK
 author: Rafael Corsi - rafael.corsi@insper.edu.br
-date: 2017
+date: agosto 2017
 ---
 
 # Dicas de implementação :
@@ -20,7 +20,7 @@ A seguir algumas dicas para a implementação do projeto 3 - COM-HandShake-ACK-n
     - NACK
 1. Documente (você já vai precisar fazer isso mesmo !)
 1. Enlace, empacotamento :
-    - Implemente três métodos distintos para criar os pacotes de comando e um para criar o pacote de dados:
+    - Implemente métodos distintos para criar os pacotes de comando e um para criar o pacote de dados:
     
 ```python
         def buildSynPacket(self):
