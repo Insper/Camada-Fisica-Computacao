@@ -20,7 +20,7 @@ Para isso, será necessário agora modificarmos a camada de enlace, ela será re
 
 Algumas dicas de implementação podem ser lidas em : 
  
-- [Dicas](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/2-COM-Datagrama/dicas.pdf)
+- [Dicas](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/2-COM-Datagrama/2-COM-Dicas-Datagrama.pdf)
   
 # Requisitos
 
