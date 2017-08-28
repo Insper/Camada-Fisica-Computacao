@@ -8,17 +8,17 @@ date: Agosto - 2017
 
 ![Etapa Atual](doc/etapaAtualPilhaEnlace.png){ width=30% }
 
-# Projeto 2 : HandShake/ Ack e nACL
+# Projeto 3 : HandShake/ Ack e nACL
 
 Implementar de forma incremental um protocolo de handshake entre na camada de enlace que garante ao *client* que dados só serão trafegados na rede quando o *server* estiver habilitado para receber. Além disso, um protocolo de reconhecimento (ACK e NACK) deve ser implementado para que o *client* tenha conhecimento do status da recepção do pacote pelo *server*, caso uma falha for detectada, reenviar o pacote.
 
-- [Lista aula 3](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/3-Datagrama/3-Lista-Datagrama.pdf)
+- [Lista aula 5](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/5-HandShake-ACK-NACK/5-Lista-Handshake-Ack-Nack.pdf)
 
 ## Dicas
 
 Algumas dicas de implementação podem ser lidas em : 
  
-- [Dicas](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/2-COM-Datagrama/dicas.pdf)
+- [Dicas](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/3-COM-HandShake-ACK-NACK/3-COM-Dicas-HandShake-Ack-Nack.md)
   
 # Requisitos
 
