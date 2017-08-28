@@ -1,5 +1,5 @@
 ---
-title: Camada Física - HandShake - Ack e NACK
+title: Camada Física - 5 - HandShake - Ack e NACK
 author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: Agosto - 2017
 ---
@@ -8,20 +8,17 @@ date: Agosto - 2017
 
 # Material de Aula
 
-- Slides : [slides Aula](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/5-HandShake-ACK-NACK/slides.pdf)
+- Slides : [slides Aula](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/5-HandShake-ACK-NACK/5-Slides-Hanshake-Ack-Nack.pdf)
 
 ## Lista 
 
 O conteúdo da lista a seguir será cobrado em avaliação :
 
-[lista Aula 5](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/5-HandShake-ACK-NACK/LISTA.pdf)
+[lista Aula 5](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/5-HandShake-ACK-NACK/5-Lista-HandShake-Ack-Nack.pdf)
 
 ## Leituras 
 
-O conteúdo das leituras  a seguir serão cobradas em avaliações :
-
-
-O conteúdo das leituras listas a seguir serão cobradas em avaliações :
+O conteúdo das leituras a seguir serão cobradas em avaliações :
 
 ### Artigo 
 
