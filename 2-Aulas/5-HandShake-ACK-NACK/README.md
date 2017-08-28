@@ -32,10 +32,9 @@ Ler o artigo a seguir :
 
 E responder a seguintes perguntas :
 
-- [Perguntas sobre o artigo](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/5-HandShake-ACK-NACK/5-Artigos-Perguntas.md)
+- [Perguntas sobre o artigo](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/5-HandShake-ACK-NACK/5-Artigo-Perguntas.md)
 
 # Projeto 3 - HandShake Ack/NACK
->>>>>>> 446c0d262cbf28b69d8c14a8af92aa6fbeb86218
 
 **Entrega começo da aula 31/8**
 
