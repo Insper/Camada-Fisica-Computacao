@@ -8,6 +8,15 @@ date: Agosto - 2017
 
 ![Etapa Atual](doc/etapaAtualPilhaEnlace.png){ width=30% }
 
+# Indice
+
+- 1- COM - Client Server
+- 2- COM - Datagrama
+- 3- COM - HandShake Ack e NACk1
+- 4- COM - Fragmentação e Deteçao de erros  
+    - **README**
+    - Dicas
+
 # Projeto 4 : Fragmentamcão e Detecção de Erros
 
 Implementar a fragmentação dos dados na camada de enlace para possibilitar o reenvio mais eficiente caso algum erro nos dados for detectado. Para a deteção de erros na transmissão, adicione um CRC ao HEAD e outro ao Payload, enviando um ACK/NACK em resposta se o pacote foi recebido corretamente ou não.
@@ -16,11 +25,7 @@ Implementar a fragmentação dos dados na camada de enlace para possibilitar o r
 
 - [Lista aula 8 ](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/8-Deteccao-De-Erros/8-Lista-Deteccao.pdf)
 
-## Dicas
-
-Algumas dicas de implementação podem ser lidas em : 
- 
-- [Dicas](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/4-COM-Fragmentacao-Detecao/4-COM-Dicas-Fragmentaao-Deteccao.pdf)
+- [Dicas de implementação](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/4-COM-Fragmentacao-CheckSum/04-COM-Dicas-Fragmentacao-CheckSum.md)
   
 # Requisitos
 
