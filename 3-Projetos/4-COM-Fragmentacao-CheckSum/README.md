@@ -8,7 +8,7 @@ date: Agosto - 2017
 
 ![Etapa Atual](doc/etapaAtualPilhaEnlace.png){ width=30% }
 
-# Indice
+# Índice
 
 - [1- COM - Client Server](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/1-COM-Client%20Server)
 - [2- COM - Datagrama](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/2-COM-Datagrama)

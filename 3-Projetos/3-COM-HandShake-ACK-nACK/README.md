@@ -25,7 +25,7 @@ Implementar de forma incremental um protocolo de handshake entre na camada de en
 
 Algumas dicas de implementação podem ser lidas em : 
  
-- [Dicas](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/3-COM-HandShake-ACK-NACK/3-COM-Dicas-HandShake-Ack-Nack.md)
+- [Dicas](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/3-COM-HandShake-ACK-nACK/3-COM-Dicas-HandShake-Ack-Nack.md)
   
 # Requisitos
 
