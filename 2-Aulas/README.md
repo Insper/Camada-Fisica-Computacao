@@ -7,6 +7,15 @@ date: 2017
 
 # Indice 
 
+| Aula | Tópico            | Slides | Lista | Leitura | Pergunta Artigo |
+|------+-------------------+--------+-------+---------+-----------------|
+|    1 | Introdução        |        |       |         |                 |
+|    2 | Client-Server     |        |       |         |                 |
+|    3 | Introdução Artigo |        |       |         |                 |
+|    4 | Quiz              |        |       |         |                 |
+|    5 | Fragmentação      |        |       |         |                 |
+|    6 | CRC               |        |       |         |                 |
+
 
 - [1 - Introdução](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/2-Aulas/1-Introducao)
 - [2 - Client Server](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/2-Aulas/2-Client-Server)
