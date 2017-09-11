@@ -4,9 +4,8 @@ author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: Agosto - 2017
 ---
 
-![Camada Atual](figs/etapaAtualPilhaEnlace.png){ width=40% }
 
-# Material de Aula
+# Materiais de aula
 
 
 - [Slide aula 7](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/7-Fragmentacao/7-Slides-Fragmentacao.pdf)
