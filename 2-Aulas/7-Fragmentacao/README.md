@@ -18,11 +18,7 @@ O conteúdo das leituras a seguir serão cobradas em avaliações :
 
 ### Artigo 
 
-Ler o artigo a seguir :
-
-- Barr, Michael. "For the Love of the Game," Embedded Systems Programming, December 1999 , pp. 47-54. 
-    - https://barrgroup.com/Embedded-Systems/How-To/CRC-Math-Theory
-    
+Ler o artigo a seguir : 
     
 - Barr, Michael. "CRC Series, Part 1: Additive Checksums", 1999.
     - https://barrgroup.com/Embedded-Systems/How-To/Additive-Checksums   

@@ -7,9 +7,9 @@ date: Agosto - 2017
 
 # Materiais de aula
 
-- [Slide aula 8](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/7-Fragmentacao/7-Slides-CRC.pdf)
+- [Slide aula 8](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/8-CRC/8-Slides-CRC.pdf)
 
-- [Lista Aula 8](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/8-Fragmentacao/8-Lista-CRC.pdf)
+- [Lista Aula 8](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/8-CRC/8-Lista-CRC.pdf)
 
 # Projeto 4 - Fragmentação e CRC
 
