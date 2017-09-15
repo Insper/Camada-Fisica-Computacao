@@ -8,6 +8,14 @@ date: Setembro - 2017
 
 *Entrega : Até o começo da aula do dia 21/9*
 
+# Novas Duplas
+
+Favor preencher o form com informações das novas duplas :
+
+**Um novo repositório deve ser criado !!!**
+ - https://goo.gl/forms/hE9Aow318dYQtO5u1
+
+
 # APS 5 : DTMF - Encoder e recepção.
 
 Implementar a codificação dos números 0,1,..9 em código DTMF, transmitir o sinal pelo falante de um computador e fazer o recebimento do áudio em outro computador. Não é necessário implementar a decodificação.
