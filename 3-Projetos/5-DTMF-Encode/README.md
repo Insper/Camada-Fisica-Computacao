@@ -18,7 +18,7 @@ Implementar a codificação dos números 0,1,..9 em código DTMF, transmitir o s
 
 Algumas dicas de implementação podem ser lidas em : 
  
-- [Dicas](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/5-DTMF-Encoder/5-DTMF-Dicas-Encoder.pdf)
+- [Dicas](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/5-DTMF-Encode/5-DTMF-Dicas-Encoder.md)
 
 # Requisitos
 
