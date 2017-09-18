@@ -24,6 +24,7 @@ A seguir algumas dicas para a implementação do projeto 5 - DTMF - ENCODE
 ```python
 import sounddevice as sd
 fs = 44100
+duration = 3
 
 audio = sd.rec(int(duration*fs), fs, channels=1)
 sd.wait()
