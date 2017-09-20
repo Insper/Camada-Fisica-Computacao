@@ -43,3 +43,18 @@ sd.wait()
     - os senos devem ser gerados com a mesma fs do utilizado no sounddevice (fs)
     - pré gere todos as frequências na inicialização do programa, e depois só as utilizar.
     
+# Plot real time
+
+```python
+    # Cria plot
+    plt.ion()
+    fig = plt.figure("F(y)", figsize=(10,10))
+    ax  = fig.add_subplot(111)
+    
+    ...
+    ...
+    # Atualiza plot
+    ax.clear()
+    ax.plot(X[0:3000],Y[0:3000])
+    fig.canvas.draw()
+```
