@@ -8,7 +8,7 @@ date: Setembro - 2017
 
 - [Lista Aula 9 PDF](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/9-DTMF-Encode/9-Lista-DTMF-Encode.pdf)
 
-- [Lista Aula 9 WEBE](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/9-DTMF-Encode/9-Lista-DTMF-Encode.md)
+- [Lista Aula 9 html](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/9-DTMF-Encode/9-Lista-DTMF-Encode.md)
 
 # Projeto 5 - DTMF Encoder
 
