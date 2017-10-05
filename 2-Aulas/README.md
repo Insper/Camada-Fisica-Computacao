@@ -7,14 +7,21 @@ date: 2017
 
 # Indice 
 
-| Aula | Tópico            | Slides | Lista | Leitura | Pergunta Artigo |
-|------|-------------------|--------|-------|---------|-----------------|
-|    1 | Introdução        |  X     |  X    |  X      |   X             |
-|    2 | Client-Server     |  X     |  X    |  X      |   X             |
-|    3 | Introdução Artigo |  X     |  X    |  X      |   X             |
-|    4 | Quiz              |  X     |  X    |  X      |   X             |
-|    5 | Fragmentação      |  X     |  X    |  X      |   X             |
-|    6 | CRC               |  X     |  X    |         |                 |
+| Aula | Tópico             | Slides | Lista | Leitura |
+|------|--------------------|--------|-------|---------|
+|    1 | Introdução         | X      | X     |         |
+|    2 | Client-Server      | X      | X     |         |
+|    3 | Datagrama          | X      | X     | X       |
+|    4 | Introdução Artigo  | x      |       |         |
+|    5 | HandShake-Ack-Nack | X      | X     | X       |
+|    6 | Quiz 1             |        |       |         |
+|    7 | Fragmentação       | X      | X     | X       |
+|    8 | CRC                | X      | X     |         |
+|    9 | DTMF Encode        | X      | X     |         |
+|   10 | Quiz 2             |        |       |         |
+|   11 | Fourier            |        |       |         |
+|   12 | Estúdio            |        |       |         |
+|   13 | Prática em Fourier | X      | X     | x       |
 
 
 - [1 - Introdução](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/2-Aulas/1-Introducao)
@@ -25,3 +32,9 @@ date: 2017
 - [6 - Quiz](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/2-Aulas/6-Quiz)
 - [7 - Fragmentação](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/2-Aulas/7-Fragmentacao)
 - [8 - CRC](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/2-Aulas/8-CRC)
+- [9 - DTMF Encode](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/2-Aulas/9-DTMF-Encode)
+- [10 - Quiz 2](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/2-Aulas/10-Quiz-2)
+- [11 - Fourier](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/2-Aulas/11-Fourier)
+- [12 - Estúdio](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/2-Aulas/12-Estudio)
+- [Avaliação Intermediária](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/2-Aulas/AI)
+- [13 - Prática em Fourier](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/2-Aulas/13-Pratica-Fourier)
