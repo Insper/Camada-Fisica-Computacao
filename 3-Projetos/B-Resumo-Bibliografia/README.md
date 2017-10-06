@@ -85,7 +85,7 @@ Não plagie ! texto copiado de outra fonte sem a devida citação é plágio.
 
 - Nome do autor/ Título 
 - Resumo expandido 
-    - No mínimo 260 palavras 
+    - No mínimo **280** palavras 
 - Bibliografia 
     - ao menos 6 boas referências (artigos, livros, ...)
     - Bibliografia formatada corretamente.
