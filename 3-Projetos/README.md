@@ -7,7 +7,6 @@ date: 2017
 
 # Indice 
 
-
 ## Projetos
 - [1- COM - Client Server](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/1-COM-Client%20Server)
 - [2- COM - Datagrama](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/2-COM-Datagrama)
@@ -15,6 +14,11 @@ date: 2017
 - [4- COM - Fragmentação e Deteçao de erros](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/4-COM-Fragmentacao-CheckSum)
 - [5- DTMF - Encoder DTMF](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/5-DTMF-Encode)
 - [6- DTMF - Decoder DTMF](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/6-DTMF-Decoder)
+
+## Artigos
+
+- [A - Idealização](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/A-ARTIGO-Ideia)
+- [B - Resumo e Pesquisa bibliográfica](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/B-Resumo-Bibliografia)
 
 # Projetos 
 
