@@ -54,7 +54,7 @@ A seguir algumas dicas para a implementação do projeto 7 - Modulação
           
 ## Filtro passa baixas 
 
-A função a seguir aplica um filtro passa baixas de frequência de corte : *cutoff_hz* e frequência de amostragem *fs* no sinal *signal* passado.
+A função a seguir aplica um filtro passa baixas de frequência de corte : *cutoff_hz* e frequência de amostragem *fs* no sinal *signal* passado. 
 
 ```
 from scipy import signal as sg
@@ -71,10 +71,9 @@ def LPF(signal, cutoff_hz, fs):
         cutoff_hz = 4000.0
         taps = sg.firwin(N, cutoff_hz/nyq_rate, window=('kaiser', beta))
         return( sg.lfilter(taps, 1.0, signal))
-
-...
-...
 ```
+
+Exemplo de uso :
 
 ``` 
     yDemodFiltrado  = LPF(yDemod, 4000, fs)    
