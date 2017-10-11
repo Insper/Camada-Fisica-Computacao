@@ -8,7 +8,7 @@ date: 2017
 
 A seguir algumas dicas para a implementação do projeto 7 - Modulação
 
-Dica do feriado :
+**Dica master**:
 
 - https://epxx.co/artigos/ammodulation.html
 
