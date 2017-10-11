@@ -8,11 +8,13 @@ date: 2017
 
 A seguir algumas dicas para a implementação do projeto 7 - Modulação
 
+Dica do feriado :
+
 - https://epxx.co/artigos/ammodulation.html
 
 ## Ordem de execução :
 
-1. Modulação
+1. [Modulação](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/14-Modulacao/17-Lista-Modulacao.md#modulação-am)
     - Importe os áudios m1(t) e m2(t)
     - Aplique o filtro passa baixas, que resultará em dois novos sinais:
          - m1F(t) e m2F(t)
@@ -36,7 +38,7 @@ A seguir algumas dicas para a implementação do projeto 7 - Modulação
      - Transmissão :
           - Reproduza sinal resultante
          
-2. Demodulação
+2. [Demodulação](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/14-Modulacao/17-Lista-Modulacao.md#demodulação-am)
      - Grave o áudio da transmissão
          - Exiba o Fourier do sinal recebido
      - Reconstrua as duas portadoras originais
