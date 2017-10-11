@@ -9,6 +9,21 @@ date: outubro - 2017
 
 - [Lista Aula 14 - Modulacao.PDF](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/14-Modulacao/17-Lista-Modulacao.pdf)
 
+## Leitura
+
+O conteúdo das leituras a seguir serão cobradas em avaliações :
+
+### Artigo 
+
+Ler o captulo 2 do livro a seguir :
+
+- S. Faruque, Radio Frequency Modulation Made Easy, SpringerBriefs in Electrical and Computer Engineering.
+     - http://www.springer.com/cda/content/document/cda_downloaddocument/9783319412009-c2.pdf?SGWID=0-0-45-1580981-p180080322
+     
+E responder as seguintes perguntas :
+
+- 
+
 # Projeto 7 - Modulação/Demodulação AM
 
 **Entrega começo da aula do dia 19/10**

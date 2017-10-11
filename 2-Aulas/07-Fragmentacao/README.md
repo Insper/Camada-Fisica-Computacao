@@ -23,7 +23,7 @@ Ler o artigo a seguir :
 - Barr, Michael. "CRC Series, Part 1: Additive Checksums", 1999.
     - https://barrgroup.com/Embedded-Systems/How-To/Additive-Checksums   
     
-E responder a seguintes perguntas :
+E responder as seguintes perguntas :
 
 - [Perguntas sobre o artigo](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/07-Fragmentacao/7-Artigo-Perguntas.md)
 
