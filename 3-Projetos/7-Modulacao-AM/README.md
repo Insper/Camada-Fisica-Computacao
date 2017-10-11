@@ -14,7 +14,7 @@ Transmitir dois sinais de áudio em amplitude modulada via falante do computador
 
 Algumas dicas de implementação podem ser lidas em : 
  
-- [Dicas](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/6-DTMF-Decoder/6-DTMF-Dicas-Decoder.pdf)
+- [Dicas](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/7-Modulacao-AM/7-Dicas-Modulacao.md)
 
 # Requisitos
 
