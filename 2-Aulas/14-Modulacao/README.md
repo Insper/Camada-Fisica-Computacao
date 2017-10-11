@@ -7,7 +7,7 @@ date: outubro - 2017
 
 # Materiais de aula
 
-- [Lista Aula 9 PDF](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/14-Modulacao/14-Lista-Modulacao.pdf)
+- [Lista Aula 14 - Modulacao.PDF](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/14-Modulacao/17-Lista-Modulacao.pdf)
 
 # Projeto 7 - Modulação/Demodulação AM
 
@@ -16,7 +16,6 @@ date: outubro - 2017
 O projeto da semana consiste em modular duas mensagens em amplitude, transmitir a mensagem via o falante de um computador e recuperar as duas mensagens demodulando o sinal em outro computador.
 
 - https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/7-Modulacao-AM
-
 
 
 # Configurando ambiente SDR
