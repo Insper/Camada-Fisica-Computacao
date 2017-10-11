@@ -5,7 +5,9 @@ author: Eduardo Marossi
 date: outubro - 2017
 ---
 
-# Configurando ambiente Rádio
+
+
+# Configurando ambiente SDR
 
 ## Windows
 
