@@ -8,11 +8,13 @@ date: 2017
 
 A seguir algumas dicas para a implementação do projeto 7 - Modulação
 
+**Dica master**:
+
 - https://epxx.co/artigos/ammodulation.html
 
 ## Ordem de execução :
 
-1. Modulação
+1. [Modulação](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/14-Modulacao/17-Lista-Modulacao.md#modulação-am)
     - Importe os áudios m1(t) e m2(t)
     - Aplique o filtro passa baixas, que resultará em dois novos sinais:
          - m1F(t) e m2F(t)
@@ -36,7 +38,7 @@ A seguir algumas dicas para a implementação do projeto 7 - Modulação
      - Transmissão :
           - Reproduza sinal resultante
          
-2. Demodulação
+2. [Demodulação](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/2-Aulas/14-Modulacao/17-Lista-Modulacao.md#demodulação-am)
      - Grave o áudio da transmissão
          - Exiba o Fourier do sinal recebido
      - Reconstrua as duas portadoras originais
@@ -54,7 +56,7 @@ A seguir algumas dicas para a implementação do projeto 7 - Modulação
           
 ## Filtro passa baixas 
 
-A função a seguir aplica um filtro passa baixas de frequência de corte : *cutoff_hz* e frequência de amostragem *fs* no sinal *signal* passado.
+A função a seguir aplica um filtro passa baixas de frequência de corte : *cutoff_hz* e frequência de amostragem *fs* no sinal *signal* passado. 
 
 ```
 from scipy import signal as sg
@@ -71,10 +73,9 @@ def LPF(signal, cutoff_hz, fs):
         cutoff_hz = 4000.0
         taps = sg.firwin(N, cutoff_hz/nyq_rate, window=('kaiser', beta))
         return( sg.lfilter(taps, 1.0, signal))
-
-...
-...
 ```
+
+Exemplo de uso :
 
 ``` 
     yDemodFiltrado  = LPF(yDemod, 4000, fs)    
