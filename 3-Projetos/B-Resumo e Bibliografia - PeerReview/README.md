@@ -12,11 +12,9 @@ Cada aluno irá receber um texto de um colega referente a entrega B - Resumo e B
 
 A revisão deve seguir o padrão do arquivo fornecido e enviada via blackBoard na data prevista:
 
-- Entrega B - Resumo e Pesquisa Bibliografica - PeerReview
+- [Entrega B - Resumo e Pesquisa Bibliografica - PeerReview](https://github.com/Insper/Camada-Fisica-Computacao/raw/master/3-Projetos/B-Resumo%20e%20Bibliografia%20-%20PeerReview/Entrega%20B%20-%20Resumo%20e%20Pesquisa%20Bibliografica%20-%20PeerReview.docx)
 
 A avaliação será realizada sobre a qualidade do peerReview.
-
-# Avaliação :
 
 ## Itens necessários :
 
