@@ -70,7 +70,6 @@ def LPF(signal, cutoff_hz, fs):
         width = 5.0/nyq_rate
         ripple_db = 60.0 #dB
         N , beta = sg.kaiserord(ripple_db, width)
-        cutoff_hz = 4000.0
         taps = sg.firwin(N, cutoff_hz/nyq_rate, window=('kaiser', beta))
         return( sg.lfilter(taps, 1.0, signal))
 ```
