@@ -79,3 +79,10 @@ Exemplo de uso :
 ``` 
     yDemodFiltrado  = LPF(yDemod, 4000, fs)    
 ```
+
+Importando um áudio
+````
+    audio, samplerate = sf.read('dois.wav')
+    yAudio = audio[:,1]
+    samplesAudio = len(yAudio)
+````
