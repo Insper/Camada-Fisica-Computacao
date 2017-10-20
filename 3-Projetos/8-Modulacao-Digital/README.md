@@ -1,5 +1,5 @@
 ---
-title: Camada Física -  APS 8 - Modulação/Demodulação BPSK
+title: Camada Física -  APS 8 - Modem - Modulação/Demodulação BPSK 
 author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: Outubro - 2017
 ---
@@ -30,12 +30,16 @@ O software a ser disponível deverá utilizar como interface física um rádio c
 - Instalar o netcat
     - apt-get install netcat
     
+### Exemplo
+
+O exemplo fornecido na pasta : *[./materiais/bpsk-audio.grc]()* fornece um exemplo de como configurar o **GNURadio** para acessar um arquivo texto [Drummond-residos.txt](), modular e demodular os dados do arquivo texto em Binary Phase Shift Keying (BPSK).
+
 
 ## Descrição 
 
-1. transmissor.
+1. Transmissor.
 
-     - Camada Física
+     - Camada Física (.gnr)
          - Deve modular o sinal de áudio em BPSK
          - Deve abrir um "socket" e modular as mensagens digitais recebidas em BPSK via GNURadio
          - O sinal deve ser enviado via áudio
@@ -43,13 +47,32 @@ O software a ser disponível deverá utilizar como interface física um rádio c
               - Símbolo por Sample (sps)
               - Frequência de transmissão
               - Volume
-     - Camada Aplicação
-         - Interface gráfica para envio de strings via socket.
+     - Camada Aplicação (.py)
+         - Interface gráfica para envio de strings ao gnuradio via socket.
+         
 2. Receptor
-    - Camada Física
+    - Camada Física (.gnr)
         - Deve demodular o sinal de áudio recebido em BPSK
         - Deve-se conectar a um socket e transmitir as mensagens digitais 
+    - Aplicação
+        - Interface gráfica para recepção de dados do gnuradio via socket.
         
+3. Documentação
+
+    - Explicar a frequência de transmissão utilizada e a banda que o sinal ocupa.
+    - Explicar o funcionamento geral do projeto.
+    - Explicar a modulação BPSK
+     - GNURadio
+         - TX (todos os gráficos devem vir acompanhados de uma explicação)
+             - Exibir o gráfico no tempo e em frequência do sinal não codificado
+             - Exibir o gráfico no tempo e em frequência do sinal codificado (após o *constellation modulator*)
+             - Exibir o gráfico no tempo e em frequência do sinal modulado
+                 - explicar o gráfico resultante
+             - Exibir o diagrama de constelação.
+         - RX (todos os gráficos devem vir acompanhados de uma explicação)
+             - Exibir o sinal de áudio recebido no tempo e em frequência
+             - Exibir o sinal de áudio demodulado no tempo e em frequência
+             - Exibir o diagrama de constelação.
 ## Itens extras
 
 O desenvolvimento de somente um dos itens extras será considerado como A.
