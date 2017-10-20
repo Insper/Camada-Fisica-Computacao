@@ -30,9 +30,11 @@ O software a ser disponível deverá utilizar como interface física um rádio c
 - Instalar o netcat
     - apt-get install netcat
     
-### Exemplo
+### [Exemplo](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/8-Modulacao-Digital/Exemplo/README.md
 
-O exemplo fornecido na pasta : *[./materiais/bpsk-audio.grc]()* fornece um exemplo de como configurar o **GNURadio** para acessar um arquivo texto [Drummond-residos.txt](), modular e demodular os dados do arquivo texto em Binary Phase Shift Keying (BPSK).
+-https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/8-Modulacao-Digital/Exemplo/README.md
+
+O exemplo fornecido na pasta : *[./materiais/bpsk-audio.grc](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/8-Modulacao-Digital/Exemplo/bpsk-audio.grc)* fornece um exemplo de como configurar o **GNURadio** para acessar um arquivo texto [Drummond-residos.txt](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/8-Modulacao-Digital/Exemplo/Drummond-residos.txt), modular e demodular os dados do arquivo texto em Binary Phase Shift Keying (BPSK).
 
 
 ## Descrição 
