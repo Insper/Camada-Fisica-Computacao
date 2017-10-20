@@ -18,7 +18,7 @@ A modulação/demodulação deve ser implementada no GNU Radio, um software em p
 
 O software a ser disponível deverá utilizar como interface física um rádio criado a partir do GNURadio, a interface da aplicação com o GNURadio será via socket TCP/IP (tanto para transmissão dos dados quanto para recepção) conforme diagrama a seguir :
 
-![Interface entre módulos](./doc/modulos.pdf)
+![Interface entre módulos](./doc/modulos.png)
 
 ### Pré requisitos: 
 
