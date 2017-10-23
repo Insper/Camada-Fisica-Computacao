@@ -14,7 +14,7 @@ date: 2017
     
         - **Recepção (recepcao.py)**
             - você deverá inicializar um socket server no python na porta especificada no gnuradio. Utilize o exemplo :
-                 - exemplo-socket-server.py
+                 - [exemplo-socket-server.py](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/8-Modulacao-Digital/exemplo-socket-server.py)
             - para validar sem o GNURADIO você deve :
                  - executar o exemplo-socket-server.py
                  - em um terminal :
