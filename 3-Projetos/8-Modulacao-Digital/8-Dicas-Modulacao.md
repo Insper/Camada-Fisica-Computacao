@@ -41,7 +41,7 @@ date: 2017
                     - O dado enviado via socket será : modulado, transmitido via áudio, recebido via microfone, demodulado e enviado via socket para o software python em execução (recepcao.py).
             - Crie um software transmissao.py
                  - esse software deverá agora conectar-se no socket criado pelo GNURADIO, para isso utilize o exemplo (Client) do link :
-                 - (echo Client) https://pymotw.com/2/socket/tcp.html
+                     - (echo Client) https://pymotw.com/2/socket/tcp.html
                  - Crie uma interface que receba string (texto) e transmita esse texto para o socket recém criado.
                  
 2. Dois PCs
