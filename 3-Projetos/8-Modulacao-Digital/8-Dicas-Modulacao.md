@@ -50,7 +50,8 @@ date: 2017
                - possui somente a parte referente a transmissão
           - qpsk-audio-recepcao.grc
                - possui somente a parte referente a recepção
-     - Rodar a transmissão (qpsk-audio-transmissao, transmissao.py) em um PC
-     - Rodar a recepção (qpsk-audio-recepcao, recepcao.py) em outro PC
+     - Executar a transmissão (qpsk-audio-transmissao, transmissao.py) em um PC
+     - Executar a recepção (qpsk-audio-recepcao, recepcao.py) em outro PC
      - Transmitir dados entre eles.
+         - possivelmente ser necessário ajustar a frequência de transmissão.
 
