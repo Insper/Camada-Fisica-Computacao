@@ -10,7 +10,7 @@ date: 2017
 1. LoopBack Mode
     - Trabalhar com o exemplo fornecido para ler via python a mensagem decodificada via GNURadio.
         - Ajuste de frequência:
-             - Encontre uma frequência de transmissão para o seu sistema (microfone + falante) que funcione bem, com o GNURadio em execução, ajuste a barra de frequência até o mapa de constelação ficar em praticamente dois pontos, isso indica uma boa recepção dos dados.
+             - Encontre uma frequência de transmissão para o seu sistema (microfone + falante) que funcione bem para você. Com o GNURadio em execução, ajuste a barra de frequência até o mapa de constelação ficar em praticamente dois pontos, isso indica uma boa recepção dos dados.
     
         - **Recepção (recepcao.py)**
             - você deverá inicializar um socket server no python na porta especificada no gnuradio. Utilize o exemplo :
