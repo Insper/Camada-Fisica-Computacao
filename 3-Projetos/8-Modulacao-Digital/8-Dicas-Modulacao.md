@@ -21,14 +21,19 @@ date: 2017
                       - nc localhost PORTA
                       - onde PORTA é a porta definida no socket (tem que ser a mesma no GNURadio)
                  - escreva um texto no terminal o mesmo deve aparecer no bash do python.
-        - Criar uma interface estilo "chat" que recebe os dados enviados via socket e exiba para o usuário.
+           - Teste com o GNURadio :
+             - inicialize o recepcao.py
+             - execute o GNURadio
+             - você deve receber o poema no python.
+          - Criar uma interface estilo "chat" que recebe os dados enviados via socket e exiba para o usuário.
+
         
         - **Transmissão** 
             - Agora devemos modificar o exemplo do GNURadio fornecido para que o dado a ser enviado seja recebido via socket, altere o projeto para :
     ![Socket no lugar de file](./doc/gnuradio-socket-source.png)
                 - Nesse caso o GNURadio inicializa um socket Server e aguarda uma conexão, podemos testar com o comando nc :
                     - inicialize a recepcao.py
-                    - inicialize o GNURadio
+                    - execute o GNURadio
                     - conecte-se no GNURadio, abra um terminal e :
                         - nc localhost PORTA
                         - no exemplo : nc localhost 1240
