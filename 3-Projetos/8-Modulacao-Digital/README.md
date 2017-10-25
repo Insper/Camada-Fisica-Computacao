@@ -22,13 +22,14 @@ O software a ser disponível deverá utilizar como interface física um rádio c
 
 ### Pré requisitos: 
 
-- Linux como sistema operacional, o GNURadio não opera corretamente no MAC e Windows.
-
-- Instalar o GNURadio :
-    - apt-get install gnuradio
-
-- Instalar o netcat
-    - apt-get install netcat
+- Linux como sistema operacional, o GNURadio não opera corretamente Windows.
+     - Instalar o GNURadio :
+         - apt-get install gnuradio
+     - Instalar o netcat
+         - apt-get install netcat
+         
+- MAC :
+     - https://github.com/cfriedt/gnuradio-for-mac-without-macports
     
 ### [Exemplo](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/8-Modulacao-Digital/Exemplo/README.md)
 
