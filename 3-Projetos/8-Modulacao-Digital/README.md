@@ -22,13 +22,14 @@ O software a ser disponível deverá utilizar como interface física um rádio c
 
 ### Pré requisitos: 
 
-- Linux como sistema operacional, o GNURadio não opera corretamente no MAC e Windows.
-
-- Instalar o GNURadio :
-    - apt-get install gnuradio
-
-- Instalar o netcat
-    - apt-get install netcat
+- Linux como sistema operacional, o GNURadio não opera corretamente Windows.
+     - Instalar o GNURadio :
+         - apt-get install gnuradio
+     - Instalar o netcat
+         - apt-get install netcat
+         
+- MAC :
+     - https://github.com/cfriedt/gnuradio-for-mac-without-macports
     
 ### [Exemplo](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/8-Modulacao-Digital/Exemplo/README.md)
 
@@ -36,6 +37,10 @@ O software a ser disponível deverá utilizar como interface física um rádio c
 
 O exemplo fornecido na pasta : *[./materiais/bpsk-audio.grc](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/8-Modulacao-Digital/Exemplo/bpsk-audio.grc)* fornece um exemplo de como configurar o **GNURadio** para acessar um arquivo texto [Drummond-residos.txt](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/8-Modulacao-Digital/Exemplo/Drummond-residos.txt), modular e demodular os dados do arquivo texto em Binary Phase Shift Keying (BPSK).
 
+## Dicas
+
+O Dicas para execução do projeto :
+     - https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/8-Modulacao-Digital/8-Dicas-Modulacao.md
 
 ## Descrição 
 
