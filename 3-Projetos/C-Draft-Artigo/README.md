@@ -4,7 +4,7 @@ author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: Outubro - 2017
 ---
 
-Entrega : até meia noite do dia 13/12/2017, via BlackBoard
+Entrega : até meia noite do dia 10/11/2017, via BlackBoard
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
