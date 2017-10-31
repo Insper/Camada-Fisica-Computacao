@@ -28,7 +28,7 @@ Esse entregável visa desenvolver a primeira versão do artigo completo, nessa e
 
 ## Artigo
 
-O artigo deve conter ao menos 3 páginas e ser formatado conforme padrão definido na entrega B. Artigos científicos possuem um padrão bem específico de escrita e formato, começa-se geralmente com uma introdução passando para os materiais e métodos utilizados ao longo da pesquisa, apresenta-se então os resultados obtidos e por fim discussão sobre o assunto e conclusão. Não necessariamente essas estruturas precisam ser um capítulo do artigo, mas devem estar inseridas ao longo do texto ao final do texto lista-se as referências utilizadas.
+O artigo deve conter ao menos 3 páginas e ser formatado conforme padrão definido na entrega B. Artigos científicos possuem um padrão bem específico de escrita e formato, começa-se geralmente com uma introdução passando para os materiais e métodos utilizados ao longo da pesquisa, apresenta-se então os resultados obtidos e por fim discussão sobre o assunto e conclusão. Não necessariamente essas estruturas precisam ser uma seção/sub-seção do artigo.
 
 ## Outline
 
@@ -90,7 +90,7 @@ Após a leitura, corrija o que for necessário no texto e você terá a primeira
 
 Um exemplo do que deve ser entregue pode ser visto no artigo escrito pelo Gustavo Efeiche na primeira interação da disciplina (2016) guiado pelo Prof. Fábio Ayres.
 
-- [(2016) Gustavo Effeiche - História da Comunicação via Satélite ]()
+- [(2016) Gustavo Effeiche - História da Comunicação via Satélite ](https://github.com/Insper/Camada-Fisica-Computacao/blob/master/3-Projetos/C-Draft-Artigo/GustavoEfeiche.pdf)
     
 # Avaliação :
 
