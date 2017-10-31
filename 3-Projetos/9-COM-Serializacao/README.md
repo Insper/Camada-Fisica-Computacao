@@ -26,10 +26,10 @@ Implementar a serialização/desserialização de um protocolo de comunicação 
 
 O roteiro a seguir pretende guiar para o uso do analog discovery para análise de protocolos e também para o entendimento do protocolo UART. 
 
-- (Roteiro 1 : Analisando o protocolo UART)[./Roteiros/1-Analise-Protocolo]
-- (Roteiro 2 : Recebendo dados via uart)[./Roteiros/2-Recebendo-Dados]
-- (Roteiro 3 : Implementando o TX)[./Roteiros/3-implementando-TX]
-- (Roteiro 4 : Implementando o RX)[./Roteiros/3-Implementando-RX]
+- [Roteiro 1 : Analisando o protocolo UART](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/9-COM-Serializacao/Roteiros/1-Analise-Protocolo)
+- [Roteiro 2 : Recebendo dados via uart](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/9-COM-Serializacao/Roteiros/2-Recebendo-Dados)
+- [Roteiro 3 : Implementando o TX](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/9-COM-Serializacao/Roteiros/3-Implementando-TX)
+- [Roteiro 4 : Implementando o RX](https://github.com/Insper/Camada-Fisica-Computacao/tree/master/3-Projetos/9-COM-Serializacao/Roteiros/4-Implementando-RX)
 
 ## Requisitos 
 1. Transmissor
