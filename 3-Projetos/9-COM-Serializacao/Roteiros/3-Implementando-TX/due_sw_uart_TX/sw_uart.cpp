@@ -42,6 +42,7 @@ void sw_uart_write_byte(due_sw_uart *uart, char data) {
   }
   
   // envia start bit
+  digitalWrite(tx, LOW);
   _sw_uart_wait_T(uart);
   
   // envia payload
