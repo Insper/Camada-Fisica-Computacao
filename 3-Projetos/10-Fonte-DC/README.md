@@ -4,10 +4,7 @@ author: Rafael Corsi - rafael.corsi@insper.edu.br
 date: Novembro - 2017
 ---
 
-![Interface entre módulos](./doc/projeto.png){width=50%}
-
-
-Para aqueles que querem desenvolver um projeto livre, consultem o explicativo :
+Para aqueles que querem desenvolver um projeto livre favor mandar um email ou me procurar para discutirmos sobre o projeto. 
 
 [10b - Projeto Livre]()
 
